@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageButton android:background="@color/colorBlue"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        tools:ignore="VectorDrawableCompat"
+        app:srcCompat="@drawable/ic_account_circle_black_24dp"
+        android:layout_weight="1"/>
+
+    <EditText android:layout_height="70dp" android:layout_width="250dp"
+        android:textColorHint="@color/colorwhite"
+        android:textColor="@color/colorwhite"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:ems="10" android:id="@+id/userLogin"/>
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton android:background="@color/colorBlue"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        tools:ignore="VectorDrawableCompat"
+        app:srcCompat="@drawable/ic_lock_black_24dp"
+        android:layout_weight="1"/>
+
+    <EditText android:layout_height="70dp" android:layout_width="250dp"
+        android:textColorHint="@color/colorwhite"
+        android:textColor="@color/colorwhite"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10" android:id="@+id/pwdLogin"/>
+
+</LinearLayout>
+
+    <Button android:background="@color/colorBlue2"
+        android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/login" android:text="LOGIN"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/link_signup"
+        android:text="No account yet? Create one"
+        android:textSize="16dip"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

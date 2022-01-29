@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753369917949",
+    "project_id": "masha-1e581",
+    "storage_bucket": "masha-1e581.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753369917949:android:b1c4660c9682140ccd5194",
+        "android_client_info": {
+          "package_name": "com.example.masha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753369917949-g5p3koig5mpbbj14aur4i1co86c5i4dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYz4zG4PwOk2qDfYZgXKnm83ZJpL-uRdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753369917949-g5p3koig5mpbbj14aur4i1co86c5i4dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
