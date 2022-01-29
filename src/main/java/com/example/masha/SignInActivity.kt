@@ -19,18 +19,11 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
         val singin = findViewById<Button>(R.id.button_singIn)
-        val name = findViewById<EditText>(R.id.edit_text_name)
         val email = findViewById<EditText>(R.id.edit_text_email)
         val password = findViewById<EditText>(R.id.edit_text_password)
         singin.setOnClickListener {
         when{
-            TextUtils.isEmpty(name.text.toString().trim{it <=' '})->{
-                Toast.makeText(
-                    this@SignInActivity,
-                    "Please enter name",
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
+
             TextUtils.isEmpty(email.text.toString().trim{it <=' '})-> {
                 Toast.makeText(
                     this@SignInActivity,
